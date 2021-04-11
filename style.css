@@ -18,7 +18,7 @@ i {
 }
 .two ul li {
 	list-style:none;
-	margin-left:0px;
+	margin-left: 0px;
 }
 .two nav {
   display: block;
@@ -26,7 +26,7 @@ i {
   margin: 0 auto 30px;
 }
 .two ul {
-  background: #42aaff;
+  background: #9560e2;
   overflow: hidden;
   padding: 0;
 }
@@ -48,3 +48,8 @@ i {
   color: white;
 }
 .two a:hover {background: #ADC0CE}
+
+button[name='send']{
+  margin-top: 20px;
+}
+
