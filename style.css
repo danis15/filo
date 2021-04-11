@@ -1,4 +1,6 @@
-body {margin:0;}
+body {
+	margin:0;
+}
 h2 {
   font-family: monospace;
   color: #606060;
@@ -6,33 +8,43 @@ h2 {
 ul {
   list-style: none; 
   margin: 0 auto;
-}
-a {
-  text-decoration: none;
-  font-family: 'Lora', serif;
-  transition: .5s linear;
+  overflow: hidden;
 }
 i {
   margin-right: 10px;
 }
-nav {
+.two li::before {
+	content: "";
+}
+.two ul li {
+	list-style:none;
+	margin-left:0px;
+}
+.two nav {
   display: block;
-  width: 660px;
+  width: 1334px;
   margin: 0 auto 30px;
 }
 .two ul {
-  background: #D4E7EE;
+  background: #42aaff;
   overflow: hidden;
   padding: 0;
 }
 .two li {
+  list-style-type: none;
   float: left;
+  font-size:94%;
 }
 .two a {
   display: block;
-  padding: 1em;
+  padding: 7px;
   border-right: 1px solid #ADC0CE;
   background: rgba(173, 192, 206, .3);
-  color: #29838C;
+  color: #000;
+  text-decoration: none;
+}
+.two a.active {
+  background-color: #4CAF50;
+  color: white;
 }
 .two a:hover {background: #ADC0CE}
